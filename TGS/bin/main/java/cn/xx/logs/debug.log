@@ -1,6 +1,0 @@
-2021-06-14 13:47:50 下午 [Thread: Thread-0][ Class:TGS >> Method: log.Log.AuthLog(Log.java:72) ]
-INFO:客户端1234567890与172.20.10.7认证成功
-2021-06-14 13:51:52 下午 [Thread: Thread-0][ Class:TGS >> Method: log.Log.AuthLog(Log.java:72) ]
-INFO:客户端1234567890与172.20.10.7认证成功
-2021-06-14 13:53:19 下午 [Thread: Thread-0][ Class:TGS >> Method: log.Log.AuthLog(Log.java:72) ]
-INFO:客户端8888888888与172.20.10.7认证成功
