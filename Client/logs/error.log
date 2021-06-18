@@ -1,0 +1,4 @@
+2021-06-09 14:27:34 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.LogRegWindow >> Method: Utils.Log.AuthLog(Log.java:74) ]
+ERROR:客户端1234567890与AS认证失败
+2021-06-09 14:27:34 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.LogRegWindow >> Method: Utils.Log.loginLog(Log.java:46) ]
+ERROR:客户端1234567890登录失败

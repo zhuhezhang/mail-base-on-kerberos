@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="vboxMain" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainWindow.MainWindow">
+   <children>
+      <HBox prefHeight="50.0" prefWidth="1000.0">
+         <children>
+            <ImageView fitHeight="50.0" fitWidth="60.0">
+               <image>
+                  <Image url="@邮箱.png" />
+               </image>
+            </ImageView>
+            <VBox prefHeight="200.0" prefWidth="140.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="140.0" text="203邮箱" textFill="#5a98de">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="20.0" prefWidth="140.0" text="     @203.com" textFill="#5a98de" wrapText="true" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="50.0" prefWidth="600.0">
+               <children>
+                  <Label fx:id="welcomeLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="640.0" />
+                  <Label fx:id="emailAddressLabel" alignment="CENTER" prefHeight="20.0" prefWidth="640.0" />
+               </children>
+            </VBox>
+            <Button fx:id="homeButton" mnemonicParsing="false" onAction="#goHome" prefHeight="50.0" prefWidth="70.0" style="-fx-background-color: transparent;" text="邮箱首页" textFill="#5a98de" />
+            <Button fx:id="personalManageButton" mnemonicParsing="false" onAction="#personalManage" prefHeight="50.0" prefWidth="70.0" style="-fx-background-color: transparent;" text="个人中心" textFill="#5a98de" />
+            <Button fx:id="logoutButton" mnemonicParsing="false" onAction="#logout" prefHeight="50.0" prefWidth="60.0" style="-fx-background-color: transparent;" text="退出" textFill="#5a98de" />
+         </children></HBox>
+      <HBox prefHeight="550.0" prefWidth="1000.0">
+         <children>
+            <VBox prefHeight="550.0" prefWidth="200.0" style="-fx-border-color: white;">
+               <children>
+                  <Button fx:id="writeEmailButton" mnemonicParsing="false" onAction="#writeEmail" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: transparent;" text="写邮件">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@写邮件.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="checkInboxButton" mnemonicParsing="false" onAction="#checkInbox" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: transparent;" text="收件箱">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@收件箱.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="checkOutboxButton" mnemonicParsing="false" onAction="#checkOutbox" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: transparent;" text="发件箱">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@发件箱.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children></VBox>
+            <HBox fx:id="hboxChangeView" prefHeight="550.0" prefWidth="800.0" style="-fx-border-color: white;">
+               <children>
+                  <VBox fx:id="vBox1" prefHeight="550.0" prefWidth="600.0">
+                     <children>
+                        <HBox prefHeight="20.0" prefWidth="200.0" />
+                        <HBox prefHeight="43.0" prefWidth="800.0">
+                           <children>
+                              <Label prefHeight="23.0" prefWidth="60.0" text="  收件人：" />
+                              <TextField fx:id="receiverTextField" prefHeight="23.0" prefWidth="500.0" />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="43.0" prefWidth="800.0">
+                           <children>
+                              <Label prefHeight="23.0" prefWidth="60.0" text="  主题：" />
+                              <TextField fx:id="subjectTextField" prefHeight="23.0" prefWidth="500.0" />
+                           </children>
+                        </HBox>
+                        <HBox fillHeight="false" prefHeight="370.0" prefWidth="200.0">
+                           <children>
+                              <Label prefHeight="23.0" prefWidth="60.0" text="  正文：" />
+                              <TextArea fx:id="contentTextArea" prefHeight="350.0" prefWidth="500.0" />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="200.0">
+                           <children>
+                              <Label prefHeight="30.0" prefWidth="60.0" />
+                              <Label prefHeight="23.0" prefWidth="50.0" text="发件人：" />
+                              <Label fx:id="accountLabel" prefHeight="23.0" prefWidth="200.0" />
+                              <Button fx:id="addAttachmentButton" mnemonicParsing="false" onAction="#addAttachment" prefHeight="23.0" prefWidth="100.0" text="添加附件" />
+                              <Label prefHeight="23.0" prefWidth="50.0" />
+                              <Button fx:id="sendEmailButton" mnemonicParsing="false" onAction="#sendEmail" prefHeight="23.0" prefWidth="100.0" text="发送" />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="23.0" prefWidth="200.0">
+                           <children>
+                              <Label prefHeight="23.0" prefWidth="110.0" text="                 附   件：" />
+                              <Label fx:id="attachmentLabel" prefHeight="23.0" />
+                              <Button fx:id="deleteAttachmentButton" mnemonicParsing="false" onAction="#deleteAttachment" prefWidth="50.0" style="-fx-background-color: transparent;" text="删除" underline="true" visible="false" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox fx:id="vBox2" prefHeight="200.0" prefWidth="180.0">
+                     <children>
+          
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>

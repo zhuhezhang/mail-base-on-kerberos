@@ -1,0 +1,30 @@
+2021-06-14 13:47:50 下午 [Thread: Thread-0][ Class:TGS >> Method: log.Log.AuthLog(Log.java:72) ]
+INFO:客户端1234567890与172.20.10.7认证成功
+2021-06-14 13:51:52 下午 [Thread: Thread-0][ Class:TGS >> Method: log.Log.AuthLog(Log.java:72) ]
+INFO:客户端1234567890与172.20.10.7认证成功
+2021-06-14 13:53:19 下午 [Thread: Thread-0][ Class:TGS >> Method: log.Log.AuthLog(Log.java:72) ]
+INFO:客户端8888888888与172.20.10.7认证成功
+2021-06-14 19:11:53 下午 [Thread: Thread-0][ Class:TGS >> Method: log.Log.AuthLog(Log.java:72) ]
+INFO:客户端0000000000与172.20.10.7认证成功
+2021-06-14 19:12:01 下午 [Thread: Thread-1][ Class:TGS >> Method: log.Log.AuthLog(Log.java:72) ]
+INFO:客户端8888888888与172.20.10.7认证成功
+2021-06-14 19:12:41 下午 [Thread: Thread-2][ Class:TGS >> Method: log.Log.AuthLog(Log.java:72) ]
+INFO:客户端8888888888与172.20.10.7认证成功
+2021-06-14 19:19:34 下午 [Thread: Thread-0][ Class:TGS >> Method: log.Log.AuthLog(Log.java:72) ]
+INFO:客户端1234567890与172.20.10.7认证成功
+2021-06-14 19:21:54 下午 [Thread: Thread-0][ Class:TGS >> Method: log.Log.AuthLog(Log.java:72) ]
+INFO:客户端1234567890与172.20.10.7认证成功
+2021-06-14 19:30:13 下午 [Thread: Thread-0][ Class:TGS >> Method: log.Log.AuthLog(Log.java:72) ]
+INFO:客户端1234567890与172.20.10.7认证成功
+2021-06-14 19:31:55 下午 [Thread: Thread-0][ Class:TGS >> Method: log.Log.AuthLog(Log.java:72) ]
+INFO:客户端1234567890与172.20.10.7认证成功
+2021-06-14 19:35:01 下午 [Thread: Thread-0][ Class:TGS >> Method: log.Log.AuthLog(Log.java:72) ]
+INFO:客户端1234567890与172.20.10.7认证成功
+2021-06-14 19:40:52 下午 [Thread: Thread-0][ Class:TGS >> Method: log.Log.AuthLog(Log.java:72) ]
+INFO:客户端1234567890与172.20.10.7认证成功
+2021-06-14 19:42:31 下午 [Thread: Thread-1][ Class:TGS >> Method: log.Log.AuthLog(Log.java:72) ]
+INFO:客户端1234567890与172.20.10.7认证成功
+2021-06-14 19:42:58 下午 [Thread: Thread-2][ Class:TGS >> Method: log.Log.AuthLog(Log.java:72) ]
+INFO:客户端0987654321与172.20.10.7认证成功
+2021-06-14 19:43:11 下午 [Thread: Thread-3][ Class:TGS >> Method: log.Log.AuthLog(Log.java:72) ]
+INFO:客户端1111111111与172.20.10.7认证成功

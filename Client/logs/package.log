@@ -1,0 +1,54 @@
+2021-06-09 14:21:39 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.RegisterWindow >> Method: Utils.Log.PackageContentLog(Log.java:89) ]
+INFO:发送包PackageCtoAsRegisterEkc原报文：[B@28414768
+2021-06-09 14:21:39 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.RegisterWindow >> Method: Utils.Log.PackageContentLog(Log.java:91) ]
+INFO:发送包PackageCtoAsRegisterEkc加密报文：[B@67ea0342
+2021-06-09 14:21:39 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.RegisterWindow >> Method: Utils.Log.PackageContentLog(Log.java:93) ]
+INFO:发送包PackageCtoAsRegister完整报文：[B@1eba23eb
+2021-06-09 14:27:33 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.LogRegWindow >> Method: Utils.Log.PackageContentLog(Log.java:89) ]
+INFO:发送包PackageCtoAsLoginEkc原报文：[B@2ec206a5
+2021-06-09 14:27:33 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.LogRegWindow >> Method: Utils.Log.PackageContentLog(Log.java:91) ]
+INFO:发送包PackageCtoAsLoginEkc加密报文：[B@14ad3d2a
+2021-06-09 14:27:33 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.LogRegWindow >> Method: Utils.Log.PackageContentLog(Log.java:93) ]
+INFO:发送包PackageCtoAsLogin完整报文：[B@3558f784
+2021-06-09 14:27:34 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.LogRegWindow >> Method: Utils.Log.PackageContentLog(Log.java:93) ]
+INFO:接收包PackageAstoCAuth完整报文：[B@13255eed
+2021-06-09 14:27:34 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.LogRegWindow >> Method: Utils.Log.AuthLog(Log.java:74) ]
+ERROR:客户端1234567890与AS认证失败
+2021-06-09 14:27:34 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.LogRegWindow >> Method: Utils.Log.loginLog(Log.java:46) ]
+ERROR:客户端1234567890登录失败
+2021-06-09 14:27:59 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.RegisterWindow >> Method: Utils.Log.PackageContentLog(Log.java:89) ]
+INFO:发送包PackageCtoAsRegisterEkc原报文：[B@235e4d4e
+2021-06-09 14:27:59 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.RegisterWindow >> Method: Utils.Log.PackageContentLog(Log.java:91) ]
+INFO:发送包PackageCtoAsRegisterEkc加密报文：[B@363537b2
+2021-06-09 14:27:59 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.RegisterWindow >> Method: Utils.Log.PackageContentLog(Log.java:93) ]
+INFO:发送包PackageCtoAsRegister完整报文：[B@43be2e8
+2021-06-09 14:29:49 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.RegisterWindow >> Method: Utils.Log.PackageContentLog(Log.java:89) ]
+INFO:发送包PackageCtoAsRegisterEkc原报文：[B@1eba23eb
+2021-06-09 14:29:49 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.RegisterWindow >> Method: Utils.Log.PackageContentLog(Log.java:91) ]
+INFO:发送包PackageCtoAsRegisterEkc加密报文：[B@27e23440
+2021-06-09 14:29:49 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.RegisterWindow >> Method: Utils.Log.PackageContentLog(Log.java:93) ]
+INFO:发送包PackageCtoAsRegister完整报文：[B@66d48289
+2021-06-09 14:44:42 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.RegisterWindow >> Method: Utils.Log.PackageContentLog(Log.java:89) ]
+INFO:发送包PackageCtoAsRegisterEkc原报文：[B@48ab6c47
+2021-06-09 14:44:42 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.RegisterWindow >> Method: Utils.Log.PackageContentLog(Log.java:91) ]
+INFO:发送包PackageCtoAsRegisterEkc加密报文：[B@56320408
+2021-06-09 14:44:42 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.RegisterWindow >> Method: Utils.Log.PackageContentLog(Log.java:93) ]
+INFO:发送包PackageCtoAsRegister完整报文：[B@1b2f0ab1
+2021-06-09 14:52:40 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.RegisterWindow >> Method: Utils.Log.PackageContentLog(Log.java:89) ]
+INFO:发送包PackageCtoAsRegisterEkc原报文：[B@1cd8f08f
+2021-06-09 14:52:40 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.RegisterWindow >> Method: Utils.Log.PackageContentLog(Log.java:91) ]
+INFO:发送包PackageCtoAsRegisterEkc加密报文：[B@4d47b7d1
+2021-06-09 14:52:40 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.RegisterWindow >> Method: Utils.Log.PackageContentLog(Log.java:93) ]
+INFO:发送包PackageCtoAsRegister完整报文：[B@db8a869
+2021-06-09 14:55:09 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.RegisterWindow >> Method: Utils.Log.PackageContentLog(Log.java:89) ]
+INFO:发送包PackageCtoAsRegisterEkc原报文：[B@573a2d2
+2021-06-09 14:55:09 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.RegisterWindow >> Method: Utils.Log.PackageContentLog(Log.java:91) ]
+INFO:发送包PackageCtoAsRegisterEkc加密报文：[B@66d48289
+2021-06-09 14:55:09 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.RegisterWindow >> Method: Utils.Log.PackageContentLog(Log.java:93) ]
+INFO:发送包PackageCtoAsRegister完整报文：[B@64297cbb
+2021-06-09 14:57:03 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.RegisterWindow >> Method: Utils.Log.PackageContentLog(Log.java:89) ]
+INFO:发送包PackageCtoAsRegisterEkc原报文：[B@573a2cf
+2021-06-09 14:57:03 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.RegisterWindow >> Method: Utils.Log.PackageContentLog(Log.java:91) ]
+INFO:发送包PackageCtoAsRegisterEkc加密报文：[B@66022fbd
+2021-06-09 14:57:03 下午 [Thread: JavaFX Application Thread][ Class:LogRegWindow.RegisterWindow >> Method: Utils.Log.PackageContentLog(Log.java:93) ]
+INFO:发送包PackageCtoAsRegister完整报文：[B@74da4088
